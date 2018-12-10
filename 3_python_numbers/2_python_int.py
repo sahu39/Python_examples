@@ -1,0 +1,9 @@
+x=1
+y=35567999907777
+z=-65433399
+print(x)
+print(type(x))
+print(y)
+print(type(y))
+print(z)
+print(type(z))
