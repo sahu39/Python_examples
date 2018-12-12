@@ -1,0 +1,20 @@
+From 0f020d7c6558b88c99a32ec05ee1939a5d40b082 Mon Sep 17 00:00:00 2001
+From: "rakesh.varukolu" <rakesh.varukolu@qolsys.com>
+Date: Wed, 12 Dec 2018 14:53:54 +0530
+Subject: [PATCH 2/2] prog3.py is added in second branch
+
+---
+ prog3.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 prog3.py
+
+diff --git a/prog3.py b/prog3.py
+new file mode 100644
+index 0000000..eb00c0a
+--- /dev/null
++++ b/prog3.py
+@@ -0,0 +1 @@
++print ("prog3.py is added to thirdbranch")
+-- 
+1.9.1
+
