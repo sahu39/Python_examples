@@ -1,0 +1,8 @@
+https://www.programiz.com/python-programming/file-operation
+
+https://martin-thoma.com/what-does-usrbinpython-mean/
+
+
+io.UnsupportedOperation: not readable:
+----------------------------------------
+https://stackoverflow.com/questions/44901806/python-error-message-io-unsupportedoperation-not-readable
