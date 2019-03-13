@@ -1,0 +1,6 @@
+My 1st file & operation on python
+This file contains
+three lines
+My 1st file & operation on python
+This file contains
+three lines
