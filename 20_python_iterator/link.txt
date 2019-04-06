@@ -1,2 +1,6 @@
+https://www.programiz.com/python-programming/iterator
 
+Understanding self and __init__ method in python Class:
+--------------------------------------------------------
+https://micropyramid.com/blog/understand-self-and-__init__-method-in-python-class/
     
