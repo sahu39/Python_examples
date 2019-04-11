@@ -1,0 +1,113 @@
+From 20be195282f8236f5be1d21296926de57d8abd5d Mon Sep 17 00:00:00 2001
+From: sunil <sunil.kumar@qolsys.com>
+Date: Wed, 13 Mar 2019 17:22:52 +0530
+Subject: [PATCH 2/2] python file examples related examples added
+
+---
+ 18_python_file/1_file_python.py | 13 +++++++++++++
+ 18_python_file/2_file_python.py | 16 ++++++++++++++++
+ 18_python_file/execute.sh       |  3 +++
+ 18_python_file/link.txt         |  8 ++++++++
+ 18_python_file/template.py      |  8 ++++++++
+ 18_python_file/test.txt         |  6 ++++++
+ 6 files changed, 54 insertions(+)
+ create mode 100755 18_python_file/1_file_python.py
+ create mode 100755 18_python_file/2_file_python.py
+ create mode 100755 18_python_file/execute.sh
+ create mode 100644 18_python_file/link.txt
+ create mode 100644 18_python_file/template.py
+ create mode 100644 18_python_file/test.txt
+
+diff --git a/18_python_file/1_file_python.py b/18_python_file/1_file_python.py
+new file mode 100755
+index 0000000..9166d33
+--- /dev/null
++++ b/18_python_file/1_file_python.py
+@@ -0,0 +1,13 @@
++#!/usr/bin/python3
++#File basic examples #
++
++def main():
++    with open("test.txt", mode = 'w', encoding = 'utf-8') as f:
++        f.write("My 1st file & operation on python\n")
++        f.write("This file contains\n")
++        f.write("three lines\n")
++
++
++if __name__ == "__main__":
++    main()
++
+diff --git a/18_python_file/2_file_python.py b/18_python_file/2_file_python.py
+new file mode 100755
+index 0000000..6d08a0e
+--- /dev/null
++++ b/18_python_file/2_file_python.py
+@@ -0,0 +1,16 @@
++#!/usr/bin/python3
++#File basic write and read examples #
++
++def main():
++    with open("test.txt", mode = "r+", encoding = 'utf-8') as f:
++        f.write("My 1st file & operation on python\n")
++        f.write("This file contains\n")
++        f.write("three lines\n")
++        for line in f:
++            print(line, end = '')
++
++
++
++if __name__ == "__main__":
++    main()
++
+diff --git a/18_python_file/execute.sh b/18_python_file/execute.sh
+new file mode 100755
+index 0000000..5a3f469
+--- /dev/null
++++ b/18_python_file/execute.sh
+@@ -0,0 +1,3 @@
++#!/bin/bash
++
++chmod a+x *_python.py
+diff --git a/18_python_file/link.txt b/18_python_file/link.txt
+new file mode 100644
+index 0000000..c9aa146
+--- /dev/null
++++ b/18_python_file/link.txt
+@@ -0,0 +1,8 @@
++https://www.programiz.com/python-programming/file-operation
++
++https://martin-thoma.com/what-does-usrbinpython-mean/
++
++
++io.UnsupportedOperation: not readable:
++----------------------------------------
++https://stackoverflow.com/questions/44901806/python-error-message-io-unsupportedoperation-not-readable
+diff --git a/18_python_file/template.py b/18_python_file/template.py
+new file mode 100644
+index 0000000..28f4df3
+--- /dev/null
++++ b/18_python_file/template.py
+@@ -0,0 +1,8 @@
++#!/usr/bin/python3
++# #
++def main():
++
++
++if __name__ == "__main__":
++    main()
++
+diff --git a/18_python_file/test.txt b/18_python_file/test.txt
+new file mode 100644
+index 0000000..c1fcd17
+--- /dev/null
++++ b/18_python_file/test.txt
+@@ -0,0 +1,6 @@
++My 1st file & operation on python
++This file contains
++three lines
++My 1st file & operation on python
++This file contains
++three lines
+-- 
+1.9.1
+

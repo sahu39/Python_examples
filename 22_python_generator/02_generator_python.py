@@ -15,9 +15,11 @@ def main():
         yield n
 
     a = mygen()
-    print(next(a))
-    print(next(a))
-    print(next(a))
+#    print(next(a))
+#    print(next(a))
+#    print(next(a))
+    for item in a:
+        print(item)
 
 
 if __name__ == "__main__":

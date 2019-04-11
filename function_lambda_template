@@ -1,0 +1,8 @@
+function:
+---------
+def double(x):
+   return x * 2
+
+lambada:
+--------
+double = lambda x : x^2
